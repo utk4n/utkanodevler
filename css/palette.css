@@ -1,0 +1,18 @@
+body{
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/10/best-background-for-website-21.jpg");
+    
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    text-align: center;
+    }
+h1, h2 {color:black;
+text-decoration: solid;
+text-align: center;
+       }
+a {
+    font-size: 25px;
+    text-align:center;
+    }   
+h1 {
+    font-size: 50px;
+    }
+    /* background-color:darkgray; */
