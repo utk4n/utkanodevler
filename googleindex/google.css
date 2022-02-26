@@ -1,0 +1,54 @@
+.table{
+text-align: center;
+font-size: small;
+float: left;
+margin: 0 auto;
+/* margin-right: 0.5%;
+margin-left: 3px; */
+
+}
+.table2{
+    width: 270px;
+    height: 116px;
+    text-align: center;
+}
+body{
+    margin: auto;
+    padding: 85px;
+}
+/* !navbar! burada arama çubuğu falan var */
+.navbar{
+    background-color: #EEEEEE;
+    width: 1200px;
+    height: 62px;
+    padding: 10px;
+
+}
+/* ------------------------ */
+.bgcolor{
+    background-color: #7EE5DA;
+}
+
+.bgcolor2{
+    background-color: #70CCC2;
+}
+
+.bgcolor3{
+    background-color: #62B3AA;
+}
+p{
+    
+    color:black;
+}
+
+.clearfix{
+    clear: both;
+}
+
+
+.container{
+    width: 500px;
+    height: 76px;
+    padding: 20px;
+   
+}
