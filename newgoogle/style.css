@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    
+}
+
+* a:hover{
+text-decoration: underline;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+.toplinks{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    
+}
+
+.container .logo img{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+input{
+    position: absolute;
+    display: block;
+    width: 520px;
+    height: 44px;
+    margin: 0 auto;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 24px;
+    padding: 5px 8px 0 30px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    z-index: 3;
+    background-color: white;
+    background-image: url(https://web.archive.org/web/20191130234609im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) ;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30px;
+}
+
+input:active{
+    background-color: transparent;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+
+}
+
+input:hover{
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+
+.btns{
+    display: inline-block;
+/* justify-content: center;
+align-items: center; */
+margin-top: 300px;
+margin-left: 610px;
+gap: 7px;
+background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+background-color: transparent;
+border: 1px solid #f2f2f2;
+border-radius: 4px;
+color: #5F6368;
+font-size: 14px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+user-select:none;
+outline: transparent;
+}
+
+.btnSgn{
+    background-color: #4583ee;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #4285f4;
+    color: white;
+    outline: none;
+    border-radius: 3px;
+    line-height: 28px;
+}
+
+.btns button a{
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+
+}
+.btns button a:hover{
+        box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+        background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+        background-color: #f8f8f8;
+         border: 1px solid #c6c6c6;
+         color: #222;
+}
+
+footer{
+    display: flex;
+    background-color: #f2f2f2;
+    margin-top: 248px;
+    line-height: 30px;
+    border-top: 1px solid #e4e4e4;
+    justify-content: space-between;
+}
+
+footer .left a{
+    color:black
+}
+footer .right a{
+    color:black;
+}
+
+i{
+    display: block;
+    position: absolute;
+    margin-left: 31rem;
+    margin-top: 14.5rem;
+    z-index: 5;
+    opacity: 0.3;
+}
