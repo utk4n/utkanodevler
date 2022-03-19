@@ -68,7 +68,7 @@ body{
 
 .container{
     display: grid;
-    background-image: url(https://www.burgerking.com.tr/cmsfiles/products/triple-whopper-menu.png?v=180);
+    background-image: url(https://www.burgerking.com.tr/cmsfiles/products/triple-whopper-menu.png);
     background-color: transparent;
     background-position: right;
     background-repeat: no-repeat;
