@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    margin: 0 auto;
+    width: 89vw;
+    background-color: #f5a90d;  
+    background-image: url(https://www.thebrandage.com/assets/image/cache/uploads/haberler/1513247601_WHOPPER_Ates-480xdetail.jpg);  
+    background-repeat: no-repeat;
+    background-position:center;
+    background-position-x: 700px;
+    background-position-y: 140px;
+}
+
+.topbar{
+    display: flex;
+    margin: 0 3rem;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(243, 129, 56);
+    position: sticky;
+    top: 0;
+    border-bottom-left-radius: 0.8rem ;
+    border-bottom-right-radius: 0.8rem;
+}
+
+.toplinks{
+    display: flex;
+   
+}
+
+.toplinks a img{
+    margin-right: 10px;
+}
+
+
+.toplinks a{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    /* flex: 3; */
+    opacity: 0.8;
+    text-decoration: none;
+    color:black;
+    margin: 1.7rem;
+    /* border: 2px solid wheat; */
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: transform 700ms ease-in-out ;
+}
+
+.toplinks a:hover{
+    transition: all 700ms ease-in-out ;
+    opacity: 0.7;
+    border: none solid whitesmoke;
+    color:whitesmoke ;
+}
+
+.brg{
+    height: 100px;
+}
+
+.container{
+    display: grid;
+    background-image: url(https://www.burgerking.com.tr/cmsfiles/products/triple-whopper-menu.png?v=180);
+    background-color: transparent;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 90%;
+    grid-template-columns: repeat(2, 75vh);
+    grid-template-rows:auto;
+    padding: 1rem;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.leftcontent{
+    font-size: larger;
+    border: 5px solid orangered;
+    border-radius: 10px;
+}
+
+
+h1{
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+p{
+    font-weight:400px;
+    font-size: 20px;
+}
+
+.footer{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+/* grid-template-rows: repeat(2, 1fr); */
+background-color: rgb(243, 129, 56);
+margin: 3rem;
+border-radius: 20px;
+line-height: 30px;
+overflow: hidden;
+}
+
+.fleftcontent{
+    border-right: 1px solid #edeeef;
+    margin: 10px;
+    
+}
+
+.fleftcontent a{
+    border-bottom: 1px solid #d0dae6;
+   
+}
+.middlecontent{
+    margin: 10px;
+    border-right: 1px solid #edeeef;
+
+}
+
+.middlecontent a{
+    border-bottom: 1px solid #d0dae6;
+
+}
+
+h3{
+    color:#5e3e33;
+    border-bottom: 3px solid red;
+}
+
+.rightcontent{
+margin: 10px;
+border-right: 1px solid #edeeef;
+
+}
+
+.rightcontent img{
+   width: 30px;
+    margin: 5px;
+}
+
+.rrightcontent{
+text-align: center;
+padding: 5px; 
+overflow: hidden;
+}
+
+a {
+    color: inherit;
+}
+
+.toplinks img{
+    width:24px;
+    height: 24px;
+    /* display: inline-block; */
+}
+
